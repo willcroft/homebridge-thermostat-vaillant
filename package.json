@@ -1,7 +1,7 @@
 {
-  "name": "homebridge-thermostat-netatmo",
-  "version": "0.0.12",
-  "description": "homebridge plugin for netatmo thermostat",
+  "name": "homebridge-thermostat-vaillant",
+  "version": "0.0.1",
+  "description": "Homebridge plugin for the Vaillant vSMART thermostat",
   "license": "GPL-3.0",
   "keywords": [
     "homebridge-plugin"
@@ -10,10 +10,10 @@
     "node": ">=8",
     "homebridge": ">=0.2.5"
   },
-  "author": "Dan Poltawski",
+  "author": "Netatmo plugin by Dan Poltawski, Vaillant adaptation by Will Croft",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danpoltawski/homebridge-thermostat-netatmo.git"
+    "url": "git+https://github.com/willcroft/homebridge-thermostat-vaillant.git"
   },
   "dependencies": {
     "request": "^2.88.2",

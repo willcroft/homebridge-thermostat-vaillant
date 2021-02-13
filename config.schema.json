@@ -1,5 +1,5 @@
 {
-    "pluginAlias": "Netatmo-Thermostat",
+    "pluginAlias": "Vaillant-Thermostat",
     "pluginType": "accessory",
     "singular": true,
     "schema": {
@@ -9,35 +9,35 @@
                 "title": "Name",
                 "type": "string",
                 "required": true,
-                "default": "Netatmo Thermostat"
+                "default": "Vaillant vSMART"
             },
             "client_id": {
-                "title": "Netatmo App Client ID",
+                "title": "Netatmo client ID",
                 "type": "string",
                 "required": true,
                 "default": "",
                 "description": "Client ID from application created at https://dev.netatmo.com/apps/"
             },
             "client_secret": {
-                "title": "Secret",
+                "title": "Netatmo client secret",
                 "type": "string",
                 "required": true,
                 "default": "",
-                "description": "Secret from application  created at https://dev.netatmo.com/apps/"
+                "description": "Client secret from application created at https://dev.netatmo.com/apps/"
             },
             "username": {
                 "title": "Username",
                 "type": "string",
                 "required": true,
                 "default": "",
-                "description": "Your netatmo account username"
+                "description": "Your Netatmo account username"
             },
             "password": {
                 "title": "Password",
                 "type": "string",
                 "required": true,
                 "default": "",
-                "description": "Your netatmo account password"
+                "description": "Your Netatmo account password"
             }
         }
     }
